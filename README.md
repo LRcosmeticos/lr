@@ -1,1 +1,1 @@
-# lr.github.io
+https://lrcosmeticos.github.io/lr/
