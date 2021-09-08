@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto', sans-serif;
+}
+.wall{
+  background: #FFD6AF;
+  width: 100vw;
+  height: 156vw;
+  background-image: linear-gradient(#FFD6AF,#E4B1AB);
+  
+}
+.redes{
+  background: re;
+  width: 24vw;
+  height: 8vw;
+  position: absolute;
+  right: 3vw;
+  top: 2vw;
+}
+.linkredes{
+  background: #FFD6AF;
+  width: 8vw;
+  height: 8vw;
+  display: block;
+  border-radius: 100vw;
+  position: relative;
+  float: left;
+  margin-right: 3vw;
+  text-decoration: none;
+  text-align: center;
+  line-height: 8vw;
+  font-size: 6vw;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+  background-image: linear-gradient(#FFD6AF,#E4B1AB);
+  border: solid .5vw #AEECEF;
+}
+.linkredes:hover{
+  transform: scale(1.1);
+  transition: .4s;
+}
+.imgredes{
+  width: 100%;
+  height: 100%;
+  border-radius: 100vw;
+}
+.imglink{
+  width: 100%;
+  height: 100%;
+  border-radius: 4vw;
+}
+.imglink:hover{
+  border-radius: 100vw;
+  transition: .5s;
+}
+.cardlink{
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  background: red;
+  border-radius: 4vw;
+  margin: 2.5vw auto;
+}
+.banner{
+  background: white;
+  width: 94vw;
+  height: 60vw;
+  margin: auto;
+  border-radius: 0 0 3vw 3vw;
+  border: solid .5vw #AEECEF;
+  border-top: none;
+}
+.imgbanner{
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 3vw 3vw;
+}
+.video{
+  background: white;
+  position: relative;
+  margin: auto;
+  top: -17vw;
+  border-radius: 3vw;
+  width: 90vw;
+  height: 46vw;
+  border: solid #AEECEF .5vw;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+  border-radius: 10vw 3vw 10vw 3vw;
+}
+.grupocard{
+  background: blac;
+  width: 96vw;
+  height: 61vw;
+  position: relative;
+  margin: -15vw auto;
+  border-radius: 3vw;
+}
+.card{
+  background: rgba(0,0,0,.9);
+  width: 46vw;
+  height: 25vw;
+  margin: .5vw;
+  margin-top: 0;
+  float: left;
+  border-radius: 3vw;
+  filter: blur(px);
+  ackground-image: linear-gradient(lightblue, #E4B1AB);
+  border: solid .5vw #AEECEF;
+  position: relative;
+  z-index: 9;
+}
+#card3, #card4{
+  width: 94vw;
+  height: 18vw;
+  margin-top: .3vw;
+  text-align: center;
+  color: white;
+  font-size: 5vw;
+  font-family: courier;
+  line-height: 7vw;
+  z-index: 1;
+}
+#card4{
+  margin-top: .3vw;
+  height: 14vw;
+  border: solid .5vw #AEECEF;
+}
+.imgcosmetico{
+  width: 94vw;
+  position: absolute;
+  left: 1vw;
+  z-index: 2;
+}
